@@ -1,1 +1,245 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/react_app/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><link rel="manifest" href="/react_app/manifest.json"/><title>React App</title><link href="/react_app/static/css/main.584f321a.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={1:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/react_app/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script><script src="/react_app/static/js/2.b41502e9.chunk.js"></script><script src="/react_app/static/js/main.3258f42c.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>M F F C</title>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        html {
+            background-image: url('images/backgroundCode.jpeg');
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background: DarkSlateGrey;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #mainLogo {
+            width: 60vh;
+            left: 40vh;
+        }
+
+        img {
+            height: 75px;
+            width: 75px;
+        }
+
+        #pageIntro {
+            font-weight: 400;
+            color: ivory;
+            display: block;
+            font-size: 3vw;
+            text-align: left;
+            padding: 1vh;
+            width: 100%;
+            background: #1D1B1B;
+        }
+
+        .Link, .noLink {
+            font-size: 4vw;
+            color: #474A5F;
+            display: inline-block;
+        }
+
+        ul, ol {
+            display: block;
+            list-style-type: none;
+            overflow: hidden;
+            width: 100%;
+            margin: 0px;
+        }
+
+            ol li {
+                display: inline;
+                color: yellow;
+            }
+
+        li a {
+            text-align: center;
+            width: 32%;
+            margin: auto;
+            text-decoration: none;
+        }
+
+            li a.Link:hover {
+                color: ivory;
+                font-weight: 500;
+                text-decoration: none;
+            }
+
+            li a.noLink:hover {
+                color: #474A5F;
+            }
+
+            li a:hover {
+                background: #1D1B1B;
+            }
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
+
+        #inputField {
+            width: 20vw;
+            margin-left: 39vw;
+            text-align: center;
+        }
+
+        #outputFile, #outputResponse {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pageIntro"></div>
+    
+
+    <div style="position:fixed; bottom:0px; left:0px; padding:5px; margin:0px; height:70px;">
+        <a href="https://www.linkedin.com/in/manuel-flores-cacho-573550a8/"><img src="images/linkedin.png" style="margin:0px; padding:0px;" /></a>
+        <a href="https://github.com/manuelffc"><img src="images/github.png" style="margin:0px; padding:0px;" /></a>
+        <a href="https://www.facebook.com/manuel.f.cacho"><img src="images/fb.png" style="margin:0px; padding:0px;" /></a>
+
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-4">KWIC Challenge</h1>
+        <p class="lead">
+            1) The KWIC index systemaccepts an ordered set of lines, each
+            line is an ordered set of words, and each word is an ordered set of characters<br>
+            2) Any line may be 'circularly shifted' by repeatedly removing the first word and appending it at the end of the line.<br>
+            3) The KWIC index system outputs a listing of all cricular shifts of lines in aphabetical ordered.
+        </p>
+        <span><h1 style="color:green; text-align:center;">Drop your Text  File Here </h1> </span>
+        <input id="inputField" type='file' onchange='openFile(event)'><br>
+        <div id='outputFile'>
+            <h2>File will be printed here</h2>
+            <pre id="placeFile"><pre>
+        </div>
+        <span id='outputResponse'>
+            <h2>KWIC Response</h2>
+            <ul id="placeOutput"></ul>
+        </span>
+
+
+        <script>
+			
+            var textType = /text.*/;
+            var placeOutput = document.getElementById('placeOutput');
+            var placeFile = document.getElementById('placeFile');
+            var stringArray = [];
+            var tempLineArray = [];
+            var tempArray = [];
+			var read = new FileReader();
+			
+            var openFile = function (event) {
+				clearPlaceOutput();
+				var input = event.target;
+				var file = input.files[0];
+                
+                if (file.type.match(textType)) {	
+					read.readAsText(file);					
+                    read.onload = function (e) { 
+						onLoadDocument(); 
+					}
+                }
+                else 
+                    placeOutput.innerText = "Only Text Files for this version";
+            };
+			
+			function onLoadDocument(){
+				// By lines
+                placeFile.innerHTML = read.result;
+                console.log(read.result);
+                var lines = read.result.split('\n');
+				startRotationProcess(lines);
+			}
+			function startRotationProcess(lines){
+				for (var line = 0; line < lines.length; line++) {
+					tempLine = lines[line].trim().split(" ");
+					for (var index = 0; index < tempLine.length; index++) {
+						if (index == 0)
+							tempArray = tempLine;
+						else
+							tempArray = tempLineArray;
+							
+						tempLineArray = [];
+						stringArray.push(tempArray.join(' '));
+						
+						for (var i = 1; i < tempArray.length; i++)
+							tempLineArray.push(tempArray[i]);
+							
+						tempLineArray.push(tempArray[0]);
+						tempArray = [];
+					}
+				}
+                setOutputResponse();
+			}
+			function setOutputResponse(){
+				var tempSortedArray = stringArray.sort((a, b) => a.localeCompare(b));;
+                var outputString = tempSortedArray.join(',@@&&^^++==,');
+                outputString = outputString.split(',@@&&^^++==,');
+                outputResponse(outputString);
+			
+			}
+			function clearPlaceOutput(){
+				document.getElementById("placeOutput").innerHTML = "";;
+				stringArray = [];
+			}
+			function outputResponse(outputString){
+				var element;
+                var textnode;
+			
+				for (var i = 0; i < outputString.length; i++) {
+                    console.log(outputString[i]);
+                    element = document.createElement("LI");
+                    textnode = document.createTextNode(outputString[i]);
+                    element.appendChild(textnode);
+                    document.getElementById("placeOutput").appendChild(element);
+                }
+			}
+			
+        </script>
+    </div>
+
+    <script type="text/babel">
+        class App extends React.Component {
+			state = {
+				introTextSample:'Hello My Name is Manuel. Welcome',
+				introTextDisplay: 'h',
+				name: 'Manuel',
+				age: 27,
+				education:'M.S. almost completed'
+			}
+			changeText = (e) => {
+			
+				this.setState({name:e.target.value})
+				console.log(this.state);
+			
+			}
+			render(){
+				return(
+				<div className="pageIntro-content">
+					<h1>{this.state.introTextSample}</h1>
+				</div>
+				)
+			}
+        }
+        ReactDOM.render(
+        <App />, document.getElementById('pageIntro'));
+    </script>
+</body>
+
+</html>
