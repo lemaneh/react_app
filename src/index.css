@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +8,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#logoImage{ height:7vh;}
 
+.mr-auto,.mr-2{font-size:40px;}
+
+.navbar{background:slategrey;}	
+h2{padding:10px;}
+.navbar h1, .navbar h2, .navbar .navbar-toggler-icon, span .navbar-toggler-icon, button{text-align:center; font-size:600;}
+h2:hover{color:ivory; background:black; border-radius:10px;}
+.navitem{color:purple;} 
+ul {
+  list-style-type: none;
+}
+#outputFile{border-bottom:solid; margin-bottom:10px;}
+#outputFile, #outputResponse{ padding:1vw;}
+#inputField, #insideModalElement, #placeFile, #placeOutput,.display-4{text-align:center; margin:auto;}
+#closeModal{background:maroon; cursor:pointer; width:100%; color:ivory; font-weight:900;padding:1vh; border:none; 	}
+#closeModal:hover{background:red;}
+#kwicExampleButton{background:#5F9EA0; cursor:pointer; width:100%; color:ivory; font-weight:900;padding:1vh; border:none;}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
