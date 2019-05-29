@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,Container, Jumbotron } from 'reactstrap';
 import Kwic from './Kwic';
 import Welcomecontent from './WelcomeContent';
+import FormApp from './FormApp';
 
 
 class BodyApp extends Component{
@@ -14,6 +15,7 @@ class BodyApp extends Component{
 		<div className="bodyType">
 		<Welcomecontent />
 		<Kwic/>
+		<FormApp />
 		</div>
     );
   }

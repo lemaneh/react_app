@@ -7,7 +7,7 @@ class WelcomeContent extends Component{
 	constructor(props) {
     super(props);
   }
-  
+  /*
   typeWriter = function () {
 	var i = 0;
 	var txt = "After getting my Bachelor in Electrical and Computer Engineering,I started to code, I started with some PHP and mySQL,Built my first website, and costumer database,from there I just started learning different languages, and technologies.";
@@ -20,6 +20,7 @@ class WelcomeContent extends Component{
 		i++;},8000);
 	  }
 	}
+	*/
 
   render() {
     return (
@@ -27,6 +28,11 @@ class WelcomeContent extends Component{
         <Jumbotron>
 		  <h3 onClick={this.typeWriter()}>Hello, welcome my Name is Manuel</h3>
 		  <p id="introParagraph">
+		  	After getting my Bachelor in Electrical and Computer Engineering,I started to code.
+			I started with some PHP and mySQL, built my first website, and costumer database,from there I just started learning different languages, 
+			and technologies. I have maintained school departamental websites, and I am also an intern at Gesture US Inc, where I ave been working 
+			on the user android application as an Android Developer Intern. I am also working towards my Software Engineering Masters Program.
+
 		  </p>
 		</Jumbotron>;
     </div>
