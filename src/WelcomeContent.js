@@ -7,8 +7,8 @@ class WelcomeContent extends Component{
 	constructor(props) {
     super(props);
   }
-  /*
   typeWriter = function () {
+	  /*
 	var i = 0;
 	var txt = "After getting my Bachelor in Electrical and Computer Engineering,I started to code, I started with some PHP and mySQL,Built my first website, and costumer database,from there I just started learning different languages, and technologies.";
 	var speed = 50;
@@ -19,8 +19,8 @@ class WelcomeContent extends Component{
 		console.log(document.getElementById("introParagraph").value);
 		i++;},8000);
 	  }
+	  */
 	}
-	*/
 
   render() {
     return (
